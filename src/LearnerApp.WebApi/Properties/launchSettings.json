@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "LearnerApp": {
+    "LearnersApp": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "weatherforecast",
