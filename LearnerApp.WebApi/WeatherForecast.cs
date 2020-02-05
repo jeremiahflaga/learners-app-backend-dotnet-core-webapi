@@ -1,6 +1,6 @@
 using System;
 
-namespace LearnerApp
+namespace LearnerApp.WebApi
 {
 	public class WeatherForecast
 	{

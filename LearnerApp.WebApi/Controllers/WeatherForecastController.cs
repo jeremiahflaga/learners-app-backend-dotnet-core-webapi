@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace LearnerApp.Controllers
+namespace LearnerApp.WebApi.Controllers
 {
 	[ApiController]
 	[Route("[controller]")]
