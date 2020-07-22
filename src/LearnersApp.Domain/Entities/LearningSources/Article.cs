@@ -4,12 +4,12 @@ using System.Text;
 
 namespace LearnersApp.Domain.Entities
 {
-    public class Course : LearningMedium
+    public class Article : LearningMedium
     {
-        public Course(Guid id) : base(id)
+        public Article(Guid id) : base(id)
         {
         }
 
-        public override string Type => nameof(Course);
+        public override string Type => nameof(Article);
     }
 }

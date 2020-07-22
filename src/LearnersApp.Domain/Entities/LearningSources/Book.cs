@@ -6,5 +6,10 @@ namespace LearnersApp.Domain.Entities
 {
     public class Book : LearningMedium
     {
+        public Book(Guid id) : base(id)
+        {
+        }
+
+        public override string Type => nameof(Book);
     }
 }

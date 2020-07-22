@@ -6,5 +6,10 @@ namespace LearnersApp.Domain.Entities
 {
     public class Video : LearningMedium
     {
+        public Video(Guid id) : base(id)
+        {
+        }
+
+        public override string Type => nameof(Video);
     }
 }
