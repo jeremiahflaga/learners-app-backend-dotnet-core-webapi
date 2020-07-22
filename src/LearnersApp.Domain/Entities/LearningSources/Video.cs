@@ -4,7 +4,7 @@ using System.Text;
 
 namespace LearnersApp.Domain.Entities
 {
-    public class Video : LearningSource
+    public class Video : LearningMedium
     {
     }
 }

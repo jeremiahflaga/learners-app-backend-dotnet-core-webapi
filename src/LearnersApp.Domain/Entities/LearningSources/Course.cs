@@ -4,7 +4,7 @@ using System.Text;
 
 namespace LearnersApp.Domain.Entities
 {
-    public class Course : LearningSource
+    public class Course : LearningMedium
     {
     }
 }

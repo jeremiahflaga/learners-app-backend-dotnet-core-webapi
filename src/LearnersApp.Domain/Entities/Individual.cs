@@ -4,7 +4,7 @@ using System.Text;
 
 namespace LearnersApp.Domain.Entities
 {
-    public class Learner
+    public class Individual
     {
         public Guid Id { get; protected set; }
         public string FirstName { get; set; }
